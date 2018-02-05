@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode9
-xcode_workspace: AddNumber.xcworkspace
-xcode_scheme: AddNumber
+script:
+  - xcodebuild -scheme AddNumber -workspace AddNumber.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.0' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
