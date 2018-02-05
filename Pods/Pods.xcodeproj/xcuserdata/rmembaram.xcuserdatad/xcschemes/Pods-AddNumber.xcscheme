@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0AA09F1DEF20D0005FD192"
-               BuildableName = "AddNumber.app"
-               BlueprintName = "AddNumber"
-               ReferencedContainer = "container:AddNumber.xcodeproj">
+               BlueprintIdentifier = "79C094A9368578F3153706A1969D68E0"
+               BuildableName = "Pods_AddNumber.framework"
+               BlueprintName = "Pods-AddNumber"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,29 +27,9 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0AA0B61DEF20D0005FD192"
-               BuildableName = "AddNumberTests.xctest"
-               BlueprintName = "AddNumberTests"
-               ReferencedContainer = "container:AddNumber.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0AA09F1DEF20D0005FD192"
-            BuildableName = "AddNumber.app"
-            BlueprintName = "AddNumber"
-            ReferencedContainer = "container:AddNumber.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,16 +44,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0AA09F1DEF20D0005FD192"
-            BuildableName = "AddNumber.app"
-            BlueprintName = "AddNumber"
-            ReferencedContainer = "container:AddNumber.xcodeproj">
+            BlueprintIdentifier = "79C094A9368578F3153706A1969D68E0"
+            BuildableName = "Pods_AddNumber.framework"
+            BlueprintName = "Pods-AddNumber"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -83,16 +62,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0AA09F1DEF20D0005FD192"
-            BuildableName = "AddNumber.app"
-            BlueprintName = "AddNumber"
-            ReferencedContainer = "container:AddNumber.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

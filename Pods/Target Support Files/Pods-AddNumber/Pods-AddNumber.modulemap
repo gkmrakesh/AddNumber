@@ -1,0 +1,6 @@
+framework module Pods_AddNumber {
+  umbrella header "Pods-AddNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}
